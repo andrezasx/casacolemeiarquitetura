@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.corpo{
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr;
+}
+.esqcima{
+    background-color: red;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    grid-row: 1;
+}
+.esqbaixo{
+    background-color: green;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    grid-row: 4;
+}
+.dircima{
+    background-color: blue;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    grid-row: 4;
+    grid-column: span4;
+}
+.direitabaixo{
+    background-color: yellow;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    grid-column: span4;
+}
